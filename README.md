@@ -7,4 +7,4 @@ If you are interested to change the encryption algorithm just fork it and change
 Have fun!
 
 # About developer
-My name is Parameshwar Arunachalam. I am a pyton developer. I take this project as a milestone project while learning django framework.
+My name is Parameshwar Arunachalam. I am a pyton developer. I did this project as a milestone while learning django framework.
