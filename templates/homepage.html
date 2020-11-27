@@ -1,0 +1,26 @@
+{%extends 'base_layout.html'%}
+{%block content%}
+    <main>
+        <div class="wrapper-home">
+        <div class="main-container-1">
+        <section class="section-1">
+            <h2>Welcome to crypt!</h2>
+            <ul>
+            <li> Crypt is a message cipher.</li>
+            <li> It works on basis of basic word cipher algorithm.</li>
+            <li> It can encrypt and decrypt a text message and  numbers.</li>
+            <li> Confused! check our <a href='/instructions'>Manual</a> tab in header section. </li>
+            <li> Crypt is made for fun.</li>
+            <li> Found a bug or to share the experience of using crypt contact the developer in <a href='/contact'>contact</a> tab.</li>
+            </ul>
+        </section>
+        </div>
+        <div class="main-container-2">
+        <section class="section-2">
+            <a href="/cryptography/encoder/"><p class="encrypt">Encrypt</p></a>
+            <a href="/cryptography/decoder/"><p class="decrypt">Decrypt</p></a>
+        </section>
+        </div>
+    </div>
+    </main>
+{%endblock%}
